@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <title>PC-UNIVERSE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="../Css/index.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="shortcut icon" href="Imatges/logo.ico">
+
+</head>
+<body>
+<div style="width: 25%;height: 500px;margin: auto;">
+  <br>
+      <b>  <h2>Suscribete para mucho mas</h2></b>
+        <form action="Suscribete3.php" method="get">
+	         <div>
+          <b>   <label for="Dni">DNI<span>*</span></label></b>
+            <input type="text" name="Dni" id="Dni" value="123" size="30" required>
+          </div>
+	         <div>
+          <b>   <label for="Usuario">Usuario <span>*</span></label></b>
+            <input type="text" name="Usuario" id="Usuario" value="123" size="30">
+          </div>
+          <div>
+         <b>   <label for="Contra">Introduce Contraseña <span>*</span></label></b>
+           <input type="password" name="Contra" id="Contra" value="12" size="30">
+         </div>
+         <div>
+        <b>   <label for="Contra2">Repite la Contraseña <span>*</span></label></b>
+          <input type="password" name="Contra2" id="Contra2" value="12" size="30">
+        </div>
+          <div>
+          <b>   <label for="Correo">Correo electronico <span>*</span></label></b>
+            <input type="text" name="Correo" id="Correo" value="12312@123.com" size="30" required>
+          </div>
+          <div style="font-size: 11px;">
+          <b>  <p style="font-size: 18px;" >Sexo</p><b></b>
+            <input type="radio" name="Sexo" value="male" style="display: inline;">
+              <label for="male" style="display: inline;">Male</label>
+            <input type="radio"  name="Sexo" value="female"style="display: inline;">
+              <label for="female" style="display: inline;">Female</label>
+              <input type="radio"  name="Sexo" value="other"style="display: inline;">
+                <label for="other" style="display: inline;">Other</label>
+          </div>
+          </br>
+            <input type="submit" name="submit" value="Submit Form">
+          </br>
+            <input type="reset" name="reset" value="Reset Form">
+          </div>
+        </form>
+  
+</body>
+</html>
